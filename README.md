@@ -2,7 +2,7 @@
 
 - The ```dialog``` tag it's designed for make a modal, that actually works without a ```.js``` file, with just two function inside the HTML:
 
-```
+```html
 Dialog tag: 
 
 <dialog id="d" class="modal"> <!-- You can put whatever you want inside of it -->
@@ -20,7 +20,7 @@ To close:
 
 With this two, the modal will be functional, but not too fancy, so you can costumize it with CSS:
 
-```
+```css
 button {
     border-radius: 100px;
     background-color: red;
